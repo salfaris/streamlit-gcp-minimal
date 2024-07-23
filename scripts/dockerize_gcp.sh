@@ -4,7 +4,7 @@ APP_NAME="mvp"
 
 # The `IMAGE_NAME` starts with `eu.gcr.io` which specifies GCP Artifact Registry
 # as the registry host. Docker will know how to handle this when you run `docker push`.
-REGISTRY_HOST="pkg.dev"
+REGISTRY_HOST="eu.gcr.io"
 IMAGE_NAME="$REGISTRY_HOST/$PROJECT_NAME/$APP_NAME"
 
 # # Not M1 mac
