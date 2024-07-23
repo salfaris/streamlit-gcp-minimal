@@ -1,3 +1,5 @@
+#!/bin/bash
+
 IMAGE_NAME="streamlit-mvp"
 
 # PLAIN ENGLISH: 

@@ -1,4 +1,5 @@
-# PROJECT_NAME="your-GCP-project-name"
+#!/bin/bash
+
 PROJECT_NAME="streamlit-gcp-mvp"
 APP_NAME="mvp"
 
