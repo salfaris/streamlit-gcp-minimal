@@ -20,9 +20,13 @@ Note that these steps are ordered and should be done sequentially.
 
 ### 1️⃣ Creating the Streamlit app
 
+As a first time Docker user, you want to create a Streamlit app and test that it works locally. This way you can be sure any errors are purely due to Python or Streamlit and not Docker.
+
 - [ ] Create a new Streamlit app. Here we built it in `app/app.py`.
 
 ### 2️⃣ Dockerize the app
+
+Now we begin the fun part.
 
 - [ ] Create a `Dockerfile`
 - [ ] Dockerize
