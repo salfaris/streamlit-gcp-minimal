@@ -15,7 +15,7 @@ Note that these steps are ordered and should be done sequentially.
 - [ ] Clone the repo.
 - [ ] Install Docker.
 - [ ] Create a python environment (e.g. use Conda).
-- [ ] Run `pip install -r requirements.txt`.
+- [ ] Run `pip install -r app/requirements.txt`.
   - Minimally, you should need to install `streamlit`.
 
 ### 1️⃣ Creating the Streamlit app
