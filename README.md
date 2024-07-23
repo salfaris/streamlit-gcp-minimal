@@ -46,5 +46,7 @@ Note that these steps are ordered and should be done sequentially.
 
 - [ ] Create a GCP Cloud Run service
   - This should automatically enable the Cloud Run service.
+  - ![create-service](./docs/cloud-run-create-service.png)
 - [ ] Specify the `Container Image URL` to be the image that was pushed in the previous step.
+  - ![choose-container-image](./docs/cloud-run-choose-container-image.png)  
 - [ ] Choose your settings and click `CREATE`
