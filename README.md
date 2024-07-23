@@ -32,7 +32,7 @@ Now we begin the fun part.
 - [ ] Dockerize
   - [ ] Build the image: `docker build -t <image-name> .`
   - [ ] Run the container from image: `docker run <image-name>`
-- [ ] Optionally, create a shell script that combines the dockerize step above. This is `dockerize_local.sh`
+- [ ] Optionally, create a shell script that combines the dockerize step above. This is `scripts/build_and_run_locally.sh`
 
 ### 3️⃣ Pushing image to GCP Artifact Registry
 
@@ -44,7 +44,7 @@ Now we begin the fun part.
    - [ ] Identify the registry host: `eu.gcr.io`
    - [ ] Build the image: `docker build -t <registry-host>/<image-name> . --platform linux/amd64`
 - [ ] Push the image to GCP Artifact Registry: `docker push <image-name>>`
-- [ ] Optionally, create a shell script that combines the two steps above. This is `dockerize_gcp.sh`
+- [ ] Optionally, create a shell script that combines the two steps above. This is `scripts/build_and_push_to_gcpar.sh`
 
 ### 4️⃣ Creating a GCP Cloud Run service
 
