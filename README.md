@@ -32,7 +32,7 @@ Now we begin the fun part.
 - [ ] Dockerize
   - [ ] Build the image: `docker build -t <image-name> .`
   - [ ] Run the container from image: `docker run <image-name>`
-- [ ] Optionally, create a shell script that combines the dockerize step above. This is `dockerize.sh`
+- [ ] Optionally, create a shell script that combines the dockerize step above. This is `dockerize_local.sh`
 
 ### 3️⃣ Pushing image to GCP Artifact Registry
 
