@@ -7,7 +7,7 @@ EXPOSE 8080
 WORKDIR /app
 
 # Upgrade pip and install requirements
-COPY requirements.txt requirements.txt
+COPY app/requirements.txt requirements.txt
 RUN pip install -U pip
 RUN pip install -r requirements.txt
 
